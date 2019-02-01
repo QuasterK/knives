@@ -1,0 +1,20 @@
+@import './Variables';
+
+.logo{
+  background-image: linear-gradient(to top, #B22506, lighten(#B22506, 10%));
+  position: fixed;
+  width: 100%;
+  display: block;
+  transition: display;
+  height: 56px;
+  transition: height 1s;
+  .logo-container{
+    height: 56px;
+    font-family: $Frederica-font;
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+.logo--transitioned{
+  height: 0;
+}

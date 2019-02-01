@@ -1,20 +1,30 @@
+@import './Variables.scss';
+
 .navbar{
   background-color: #B22506;
   position: fixed;
+  top: 56px;
   width: 100%;
   height: 56px;
+  transition: top 1s;
   .navbar-container{
-    max-width: 1200px;
-    margin: 0 auto;
+    @include container
     display: flex;
+
     .navbar__logo{
       width: 50%;
-      font-family: 'Fredericka the Great', cursive;
+      font-family: $Frederica-font;
       font-size: 48px;
       line-height: 56px;
     }
     .navbar__buttons{
-      width: 50%
+      width: 50%;
+      .navbar__button{
+
+      }
     }
   }
+}
+.navbar--transition{
+  top:0;
 }

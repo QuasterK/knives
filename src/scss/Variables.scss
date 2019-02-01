@@ -1,0 +1,11 @@
+$Frederica-font: 'Fredericka the Great', cursive;
+
+
+$media-sm: "@media only screen and (max-width: 720px)";
+$media-lg: "@media only screen and (min-width: 721px)";
+
+//container mixin
+@mixin container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
