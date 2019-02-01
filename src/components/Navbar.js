@@ -12,6 +12,9 @@ class Navbar extends Component {
   componentDidMount(){
      window.addEventListener('scroll', this.handleScroll);
   }
+  componentWillUnMount(){
+    window.removeEventListener('scroll', this.handleScroll);
+  }
   handleScroll = (e) =>  {
     // const {transition, transitionBack} = this.state;
 
