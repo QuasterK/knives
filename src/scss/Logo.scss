@@ -1,7 +1,7 @@
 @import './Variables';
 
 .logo{
-  background-image: linear-gradient(to top, #B22506, lighten(#B22506, 10%));
+  background-image: linear-gradient(to top, $mainColor, lighten($mainColor, 10%));
   position: fixed;
   width: 100%;
   display: block;
