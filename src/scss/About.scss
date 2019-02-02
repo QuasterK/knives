@@ -28,13 +28,17 @@
       .text-container--transitioned{
           margin-left: 0;
       }
-      .text-container--flex{
+      .text-container--box{
         font-size: 22px;
-        display: flex;
-        flex-direction: column;
         text-align: left;
-        justify-content: space-between;
+        overflow: hidden;
         .text__paragraph{
+          margin-left: 1000px;
+          transition: margin-left 3s;
+          margin-top: 30px;
+        }
+        .text__paragraph--transitioned{
+            margin-left: 0;
         }
       }
     }

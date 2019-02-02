@@ -40,14 +40,14 @@ class About extends Component {
               <h1 className="text__header"> Knives are our passion</h1>
               <h2 className="text__header--small"> We make something special </h2>
             </div>
-            <div className="text-container--flex">
-              <p className="text__paragraph">
+            <div className={classnames("text-container--box")}>
+              <p id="p1" className={classnames("text__paragraph", transition ? "text__paragraph--transitioned" : null)}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum vulputate eleifend. Sed condimentum ligula libero, nec hendrerit dui mollis at. Proin laoreet elementum condimentum. Etiam iaculis ornare metus, eu lobortis tortor. Nullam vitae massa vitae nunc aliquam commodo. Phasellus nulla ipsum, molestie consectetur enim vitae, molestie vehicula ex. Suspendisse vestibulum sagittis ipsum, vel fermentum est auctor in. Phasellus pharetra viverra dolor at lobortis.
               </p>
-              <p className="text__paragraph">
+                <p id="p2" className={classnames("text__paragraph", transition ? "text__paragraph--transitioned" : null)}>
                 Nulla efficitur orci hendrerit auctor lobortis. Donec quis ipsum ex. In nec tempus lacus. Praesent nisl nibh, scelerisque sit amet aliquet et, tristique id est. Nam vel porta elit, a luctus orci. Maecenas at tristique lorem. Phasellus ultricies id nulla et placerat. Aenean id scelerisque metus, eu imperdiet augue. Mauris finibus turpis risus, at fermentum nibh bibendum et.
               </p>
-              <p className="text__paragraph">
+                <p id="p3" className={classnames("text__paragraph", transition ? "text__paragraph--transitioned" : null)}>
                 Quisque dapibus ante accumsan purus vulputate, ut condimentum odio facilisis. Quisque ultrices eleifend sem vitae pulvinar. Etiam neque erat, ornare efficitur dolor sit amet, hendrerit vulputate quam. Fusce quis quam ut purus consectetur ullamcorper eu quis orci.
               </p>
 
