@@ -15,16 +15,19 @@ class Logo extends Component {
     window.removeEventListener('scroll', this.handleScroll);
   }
   handleScroll = (e) =>  {
-    var scroll = window.scrollY;
-    if(scroll >= 56){
-      this.setState({
-        transition: true,
-      })
-    }
-    if(scroll <= 55){
-      this.setState({
-        transition: false,
-      })
+    const scroll = window.scrollY;
+    const windowWidth = window.innerWidth;
+    if(windowWidth <= 720){
+      if(scroll >= 56){
+        this.setState({
+          transition: true,
+        })
+      }
+      if(scroll <= 55){
+        this.setState({
+          transition: false,
+        })
+      }
     }
   }
   render() {
