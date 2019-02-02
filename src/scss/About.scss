@@ -1,0 +1,45 @@
+@import './Variables.scss';
+
+.about{
+  color: white;
+  .about-container{
+    @include container;
+    height: 100 vh;
+    min-height: 600px;
+
+    .about__text{
+      overflow: hidden;
+      .text-container{
+        text-align: left;
+        box-sizing: border-box;
+        margin-left: -600px;
+        transition: margin-left 3s;
+        .text__header{
+          font-size: 48px;
+          color: lighten($mainColor, 5%);
+          margin-bottom: 10px;
+        }
+        .text__header--small{
+          margin-top: 10px;
+          font-size: 32px;
+          color: lighten($mainColor, 5%);
+        }
+      }
+      .text-container--transitioned{
+          margin-left: 0;
+      }
+      .text-container--flex{
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: space-between;
+        .text__paragraph{
+        }
+      }
+    }
+    .about__image{
+        display: none;
+    }
+  }
+}

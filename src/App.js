@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Logo from './components/Logo';
 import Home from './components/Home';
+import About from './components/About';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Logo/>
         <Navbar/>
         <Home/>
+        <About/>
       </div>
     );
   }
