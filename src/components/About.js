@@ -53,7 +53,9 @@ class About extends Component {
 
             </div>
           </section>
-          <section className="about__image"> </section>
+          <section className="about__image">
+            <div  className={classnames("image__picture", transition ? "image__picture--transitioned" : null)}/>
+          </section>
         </div>
       </div>
     )

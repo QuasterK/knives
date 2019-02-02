@@ -7,6 +7,7 @@ $mainColor: #B22506;
 
 $media-sm: "only screen and (max-width: 720px)";
 $media-lg: "only screen and (min-width: 721px)";
+$media-xl: "only screen and (min-width: 1024px)";
 
 //container mixin
 @mixin container{
