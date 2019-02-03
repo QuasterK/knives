@@ -1,0 +1,23 @@
+@import './Variables.scss';
+
+.banner{
+  height: 50vh;
+  .banner-container{
+    @include container;
+    display: block;
+    margin-top: 30px;
+    min-height: 400px;
+    background-image: url('../images/banner.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .banner__text{
+      color: $mainColor;
+      font-size: 56px;
+      font-family: $Marker;
+      line-height: 400px;
+
+    }
+  }
+}
