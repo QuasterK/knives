@@ -2,7 +2,7 @@
   "name": "knives",
   "version": "0.1.0",
   "private": true,
-  "homepage": 'https://quasterk.github.io/knives/',
+  "homepage": "https://quasterk.github.io/knives/",
   "dependencies": {
     "classnames": "^2.2.6",
     "node-sass": "^4.11.0",
