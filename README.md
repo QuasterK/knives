@@ -11,9 +11,9 @@ npm start
 ```
 
 ## Technologies used
-ReactJS
-JavaScript (ES6 standard)
-SASS
+* ReactJS
+* JavaScript (ES6 standard)
+* SASS
 
 # [PREVIEW MY APP v. 1.0.0](https://quasterk.github.io/knives/)
 
