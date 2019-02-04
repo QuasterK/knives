@@ -1,9 +1,9 @@
 @import './Variables';
 
 .products{
-  height: 100vh;
   .products-container{
     @include container;
+    display: block;
       .products__box{
         display: flex;
         flex-direction: column;

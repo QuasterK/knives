@@ -1,0 +1,24 @@
+@import './Variables.scss';
+
+.footer{
+  width: 100%;
+  overflow: hidden;
+  background: $mainColor;
+  height: 20vh;
+  .footer-container{
+    @include container;
+    display: flex;
+    justify-content: space-around;
+    .footer__col{
+        font-size: 18px;
+        color: white;
+        margin-top: 10px;
+    }
+    .footer__col--logo{
+      font-family: $Frederica-font;
+      font-size: 48px;
+      width: 40%;
+      cursor: pointer;
+    }
+  }
+}
