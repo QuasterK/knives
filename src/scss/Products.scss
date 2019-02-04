@@ -10,6 +10,11 @@
         height: 100vh;
         justify-content: space-around;
         margin-top: 20px;
+        @media #{$media-lg}{
+          flex-direction: row;
+          justify-content: flex-start;
+          height: 50vh;
+        }
         .products__product{
           cursor: pointer;
           width: 70%;
@@ -22,12 +27,20 @@
             margin: 0 auto;
             border-radius: 50%;
             margin-top: 5px;
+            @media #{$media-lg}{
+              height: 220px;
+              width: 220px;
+            }
             .product__price{
               display: none;
-              color: darkred;
+              color: red;
               font-size: 30px;
-              line-height: 120px;
+              line-height: 100px;
               font-weight: bolder;
+              @media #{$media-lg}{
+              line-height: 150px;
+              font-size: 48px;
+              }
               span{
                 margin-left: 4px;
               }
@@ -36,7 +49,7 @@
           .product__photo:hover{
             opacity: 0.5;
             .product__price{
-              display: block;
+              display: inline-block;
             }
           }
         }
