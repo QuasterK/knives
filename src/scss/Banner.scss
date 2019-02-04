@@ -5,8 +5,8 @@
   .banner-container{
     @include container;
     display: block;
+    height: 50vh;
     margin-top: 30px;
-    min-height: 400px;
     background-image: url('../images/banner.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -16,8 +16,6 @@
       color: $mainColor;
       font-size: 56px;
       font-family: $Marker;
-      line-height: 400px;
-
     }
   }
 }

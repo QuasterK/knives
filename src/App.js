@@ -5,6 +5,7 @@ import Logo from './components/Logo';
 import Home from './components/Home';
 import About from './components/About';
 import Banner from './components/Banner';
+import Products from './components/Products';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Home/>
         <About/>
         <Banner/>
+        <Products/>
       </div>
     );
   }
