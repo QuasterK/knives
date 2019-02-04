@@ -2,9 +2,12 @@ import React, {Component} from "react";
 import '../scss/Products.scss';
 
 class Products extends Component {
+  componentDidMount(){
+    // console.log(this.containerLine.offsetTop)
+  }
   render(){
     return(
-      <div className='products'>
+      <div className='products' ref={el => this.containerLine = el}>
         <div className='products-container'>
           <div className="products__box">
             <div className="products__product">

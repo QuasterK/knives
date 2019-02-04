@@ -11,13 +11,14 @@ class About extends Component {
   }
   componentDidMount(){
      window.addEventListener('scroll', this.handleScroll);
+    // it is a regular DOM node
+    // console.log(this.containerLine.offsetTop)
   }
   componentWillUnMount(){
     window.removeEventListener('scroll', this.handleScroll);
   }
   handleScroll = (e) =>  {
     const scroll = window.scrollY;
-    const windowWidth = window.innerWidth;
 
       if(scroll >= 156){
         this.setState({
@@ -33,7 +34,7 @@ class About extends Component {
   render(){
     const {transition} = this.state;
     return(
-      <div className='about'>
+      <div className='about' ref={el => this.containerLine = el}>
         <div className='about-container'>
           <section className="about__text">
             <div className={classnames("text-container", transition ? "text-container--transitioned" : null)} onScroll={this.handleScroll}>
