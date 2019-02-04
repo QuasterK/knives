@@ -3,11 +3,10 @@
 .about{
   .about-container{
     @include container;
-    height: 100 vh;
-    min-height: 600px;
+    height: 100vh;
     @media #{$media-xl}{
       display: flex;
-      max-height: 900px;
+      height: 800px;
     }
     .about__text{
       overflow: hidden;

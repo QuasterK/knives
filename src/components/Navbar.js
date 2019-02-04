@@ -37,9 +37,9 @@ class Navbar extends Component {
     if(id === 'home'){
       window.scroll(0,0)
     }else if(id === 'about'){
-      window.scroll(0, 797)
+      window.scroll(0, 850)
     }else if(id === 'products'){
-      window.scroll(0, 2000)
+      window.scroll(0, 2160)
     }else if(id === 'contact'){
       window.scroll(0,4000)
     }
