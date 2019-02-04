@@ -1,6 +1,6 @@
 [DEMO](https://quasterk.github.io/knives/)
 
-# Knives single single page application.
+# Knives single page application.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -17,4 +17,4 @@ npm start
 
 # [PREVIEW MY APP v. 1.0.0](https://quasterk.github.io/knives/)
 
-Piotr Komorowski
+Created by Piotr Komorowski
