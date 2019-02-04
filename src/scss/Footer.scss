@@ -5,6 +5,7 @@
   overflow: hidden;
   background: $mainColor;
   height: 20vh;
+  max-height: 180px;
   .footer-container{
     @include container;
     display: flex;

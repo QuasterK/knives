@@ -2,10 +2,11 @@
 
 .banner{
   height: 50vh;
+  max-height: 600px;
   .banner-container{
     @include container;
     display: block;
-    height: 50vh;
+    height: 100%;
     margin-top: 30px;
     background-image: url('../images/banner.jpg');
     background-attachment: fixed;

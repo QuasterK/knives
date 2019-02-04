@@ -9,9 +9,9 @@ class Home extends Component {
   render(){
     return(
       <div className='home' ref={el => this.containerLine = el}>
-        <div className='home__box'>
-          <span className="home__text"> Check what's new ! </span>
-          <span className="home__button"> SHOP NOW </span>
+        <div className='home-container'>
+            <span className="home__text"> Check what's new ! </span>
+            <span className="home__button"> SHOP NOW </span>
         </div>
       </div>
     )
